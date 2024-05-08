@@ -1,0 +1,100 @@
+<!--
+
+Hit RUN to see this project in action!
+
+This project will auto-refresh as you edit the HTML and CSS.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>컬러시뮬레이터-X드라이-스트라이프</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>X드라이 스트라이프</h2>
+  <div class="product">
+    <img class="main" src="https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-blk.png">
+    <img class="sideColor" src="https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-red.png">
+    <img class="strA" src="https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-wht.png">
+    <img class="strB" src="https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-blk.png">
+    <img class="valve" src="https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/valve.png">
+  </div>
+
+  <div class="btn">
+    <h2>바디컬러</h2>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-blk.png')">블랙</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-chr.png')">차콜</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-red.png')">레드</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-org.png')">오렌지</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-olv.png')">올리브</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/main-pnk.png')">핑크</button>
+
+
+    <h2>오버레이</h2>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-blk.png')">블랙</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-dgry.png')">다크그레이</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-gry.png')">그레이</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-org.png')">오렌지</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-olv.png')">올리브</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-pnk.png')">핑크</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/side-kha.png')">카키</button>
+
+
+    <h2>스트라이프A</h2>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-none.png')">없음</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-wht.png')">화이트</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-gry.png')">그레이</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-dgry.png')">다크그레이</button>
+    <button onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-blk.png')">블랙</button>
+    <button onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-gld.png')">골드</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-nyel.png')">네온그린</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/a-norg.png')">네온오렌지</button>
+
+    <h2>스트라이프B</h2>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-none.png')">없음</button>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-wht.png')">화이트</button>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-gry.png')">그레이</button>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-dgry.png')">다크그레이</button>
+    <button onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-blk.png')">블랙</button>
+    <button onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-gld.png')">골드</button>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-nyel.png')">네온그린</button>
+    <button
+      onclick="changeImageD('https://gi.esmplus.com/mobbyskor/color_simulator/xdry-stripe/b-norg.png')">네온오렌지</button>
+
+
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
